@@ -1,10 +1,10 @@
 # UCI HAR Project - README 
 
 > Course Project is final assignment of Coursera course (part of upskilling training path of data analyst in BNPP)
-Project is based on experiments "carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data". (extract from  UCI HAR ReadMe.txt)
- ===================================================================================
- 
-This README describe variables, data and transformations that have been performed to: 
+
+> Project is based on experiments "carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data". (extract from  UCI HAR ReadMe.txt)
+
+> This README describe variables, data and transformations that have been performed to: 
   - Collect & check data from the site 
   - Merges the training and the test sets to create one data set
   - Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -15,9 +15,9 @@ This README describe variables, data and transformations that have been performe
 A R script (run_analysis.R) has been created to performe assignment results. 
 Following all work step by step done  to solve problem 
 
-===================================================================================
+==================================================================
 > N.B. run_analysis function takes ad arguments the name of the root folder "UCI HAR Dataset"
-===================================================================================
+==================================================================
 
 
   > Assign 1. Collect & check data from the site 
